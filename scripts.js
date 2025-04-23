@@ -1,16 +1,17 @@
 /*
-Grouping Operator
-Nesta aula, foi abordado o uso do Group Operator, representado pelos parênteses, para definir a ordem de procedência das operações. Foi exemplificado como a utilização dos parênteses pode alterar o resultado de uma expressão matemática, priorizando determinadas operações. Foi mostrado um exemplo de cálculo de média, destacando a importância de definir a ordem das operações matemáticas. O Group Operator é uma ferramenta essencial para determinar a sequência correta de cálculos em JavaScript e outras linguagens de programação.
+Igual a e Diferente de
+Neste vídeo, exploramos os operadores lógicos "igual a" e "diferente de" em JavaScript. A diferença entre comparar conteúdo e tipo é destacada. O operador "igual a" verifica apenas o conteúdo, enquanto o operador "diferente de" compara o conteúdo. Exemplos práticos são fornecidos para ilustrar como esses operadores funcionam. É importante entender essa distinção ao realizar comparações em JavaScript.
 */
 
-let x = 10;
-let y = 20;
-let z = 30;
+let one = 1;
+let two = 2;
 
-console.log(x + y * z);
+console.log(one == two);
+console.log(one == 1);
+console.log(one == "1");
 
-console.log((x + y) * z);
+console.log("==============="); 
 
-console.log(x + (y * z));
-
-console.log(x + y * z);
+console.log(one != two);
+console.log(one != 1);
+console.log(one != "1");
