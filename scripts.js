@@ -1,37 +1,19 @@
 /*
-Operadores de Atribuição
-Neste trecho, expliquei sobre os operadores de atribuição em JavaScript. Mostrei como usar o operador de igual para atribuir valores a variáveis, realizar incrementos, decrementos, multiplicação, divisão, resto da divisão e exponenciação. Demonstrei como esses operadores podem ser combinados com a atribuição de valores a variáveis. Ao longo da aula, exemplifiquei cada operação com console.log para visualização dos resultados.
+Operadores Lógicos
+Nesta aula, expliquei os operadores lógicos, essenciais para tomada de decisões em aplicações. Demonstrei o uso dos operadores AND, OR e NOT, explicando como cada um funciona e quando retornam verdadeiro ou falso. Mostrei exemplos práticos, como verificar se um e-mail e senha estão corretos para liberar o acesso de um usuário. Os operadores AND e OR têm comportamentos distintos, enquanto o NOT inverte o valor lógico de uma expressão. Combinar esses operadores é útil para criar condições mais complexas.
 
 */
 
-let value 
+let email = true;
+let password = false;
 
-// operador de atribuição =     
-value = 1;
-console.log(value);
+// AND (E) &&
+console.log(email && password);
 
-// operador de incremento +=
-value += 2;
-console.log(value);
+// OR (OU) ||
+console.log(email || password);
 
-// operador de decremento -=
-value -= 1;
-console.log(value);
-
-// operador de multiplicação *=
-value *= 2;
-console.log(value);
-
-// operador de divisão /=
-value /= 2;
-console.log(value);
-
-// operador de exponenciação **=
-value **= 2;
-console.log(value);
-
-// operador de resto da divisão %=
-value %= 2;
-console.log(value);
-
+// NOT (!)
+console.log(!email);
+console.log(!password);
 
