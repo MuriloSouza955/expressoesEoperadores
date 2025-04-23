@@ -1,22 +1,37 @@
 /*
-Maior, Menor e Igual
-Nesta aula, expliquei sobre operadores de comparação em JavaScript. Demonstrei como usar os operadores de maior que, maior ou igual a, menor que e menor ou igual a para comparar valores. Utilizei um exemplo com variáveis de saldo e pagamento para mostrar como realizar essas comparações e obter resultados verdadeiros ou falsos. Esses operadores são úteis para verificar condições lógicas em um código.
+Operadores de Atribuição
+Neste trecho, expliquei sobre os operadores de atribuição em JavaScript. Mostrei como usar o operador de igual para atribuir valores a variáveis, realizar incrementos, decrementos, multiplicação, divisão, resto da divisão e exponenciação. Demonstrei como esses operadores podem ser combinados com a atribuição de valores a variáveis. Ao longo da aula, exemplifiquei cada operação com console.log para visualização dos resultados.
 
 */
 
-let balance = 500;
-let payment = 200;
+let value 
 
-console.log(balance > payment); // maior que
-console.log(balance >= payment); // maior ou igual a
-console.log(balance < payment); // menor que
-console.log(balance <= payment); // menor ou igual a
+// operador de atribuição =     
+value = 1;
+console.log(value);
 
-console.log("--------------------------------");
+// operador de incremento +=
+value += 2;
+console.log(value);
 
-balance = 200;
+// operador de decremento -=
+value -= 1;
+console.log(value);
 
-console.log(balance > payment); // maior que
-console.log(balance >= payment); // maior ou igual a
-console.log(balance < payment); // menor que
-console.log(balance <= payment); // menor ou igual a
+// operador de multiplicação *=
+value *= 2;
+console.log(value);
+
+// operador de divisão /=
+value /= 2;
+console.log(value);
+
+// operador de exponenciação **=
+value **= 2;
+console.log(value);
+
+// operador de resto da divisão %=
+value %= 2;
+console.log(value);
+
+
