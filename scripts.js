@@ -1,19 +1,22 @@
 /*
-Estritamente Igual e Diferente
-Nesta aula, expliquei sobre os operadores de comparação estritamente igual a (===) e estritamente diferente de (!==) em JavaScript. O operador estritamente igual a compara tanto o valor quanto o tipo das variáveis, enquanto o estritamente diferente de faz o mesmo, mas retorna verdadeiro se os tipos forem diferentes. Recomendei o uso desses operadores para garantir comparações precisas, especialmente ao lidar com diferentes tipos de dados, evitando erros comuns, como concatenar em vez de somar valores.
+Maior, Menor e Igual
+Nesta aula, expliquei sobre operadores de comparação em JavaScript. Demonstrei como usar os operadores de maior que, maior ou igual a, menor que e menor ou igual a para comparar valores. Utilizei um exemplo com variáveis de saldo e pagamento para mostrar como realizar essas comparações e obter resultados verdadeiros ou falsos. Esses operadores são úteis para verificar condições lógicas em um código.
 
 */
 
-let one = 1;
-let two = 2;
+let balance = 500;
+let payment = 200;
 
+console.log(balance > payment); // maior que
+console.log(balance >= payment); // maior ou igual a
+console.log(balance < payment); // menor que
+console.log(balance <= payment); // menor ou igual a
 
-// Estritamente igual a
-console.log(one === 1);
-console.log(one === "1");
+console.log("--------------------------------");
 
-// Estritamente diferente de
-console.log(one !== two);
-console.log(one !== 1);
-console.log(two !== 2);
-console.log(two !== "2");
+balance = 200;
+
+console.log(balance > payment); // maior que
+console.log(balance >= payment); // maior ou igual a
+console.log(balance < payment); // menor que
+console.log(balance <= payment); // menor ou igual a
